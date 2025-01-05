@@ -1,3 +1,5 @@
+
+
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -11,7 +13,10 @@ body {
     color: white;
     padding: 20px 0;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
   }
+
   
   header h1 {
     margin: 0;
@@ -42,30 +47,7 @@ body {
   .navbar a:hover {
     color: #f4a261;
   }
-  
-  section {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  section h2 {
-    color: #333;
-  }
-  
-  section p {
-    color: #555;
-  }
 
-  #skills img{
-    width:5rem;
-    height: 5rem;;
-  }
-
-  #skills .images{
-    display: flex;
-    justify-content: space-evenly;
+  section{
+    text-align: center;
   }
